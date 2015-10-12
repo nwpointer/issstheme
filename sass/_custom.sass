@@ -1,0 +1,99 @@
+// Custom
+// ------
+// This file is used to define custom overrides and
+// style changes to be used for building your theme.
+// Documentation: http://sass-lang.com/docs/yardoc/_index.html
+
+// Import variables and mixins to be used.
+@import _config.sass
+@import _sprites.sass
+
+// Custom code here.
+
+// Import wildcard files and folders.
+@import "blocks/*"
+@import "elements/*"
+@import "pages/*"
+@import "nodes/*"
+@import "regions/*"
+@import "forms/*"
+
+.view-featured-faq 
+	margin-bottom: 2rem
+	margin-top: 3rem
+	.view-header
+		text-align: center
+		font-size: 32px
+		margin: 2rem
+		font-weight: 600
+		COLOR: #184831
+	.field-content
+		width: 100%
+		display: inline-block
+	a
+		text-align: center
+		width: 100%
+		display: block
+		max-width: 46rem
+		margin: auto
+		padding: 1rem
+		background-color: #3E3E3F
+		color: white
+		margin-bottom: 1rem
+.view-logo-list
+	padding: 3rem
+	.view-content
+		max-width: 1088px
+		margin: auto
+	.views-row
+		width: 24%
+		list-style: none
+		display: inline-block
+		margin: 0 0 0 0 !important
+	img
+		width: 100%
+		height: auto
+
+.view-featured-scholars
+	padding: 3rem
+	.view-content
+		max-width: 1088px
+		margin: auto
+	.views-row
+		width: 24%
+		list-style: none
+		display: inline-block
+		margin: 0 0 0 0 !important
+	img
+		width: 100%
+		height: auto
+	.views-field-field-department
+		height: 3rem
+		overflow: hidden
+		display: block
+
+.view-featured-articles
+	padding: 3rem
+	ul
+		max-width: 1088px
+		margin: auto
+	li
+		width: 33%
+		list-style: none
+		display: inline-block
+		border: 1px solid grey
+		margin: 0 0 0 0 !important
+	img
+		width: 100%
+		height: auto
+	.views-field-title
+		padding: 1rem
+		padding-bottom: 0rem
+		a
+			COLOR: #184831
+			font-size: 1.5rem
+	.views-field-body
+		padding: 1rem
+		p
+			height: 100px
+			overflow: hidden
