@@ -19,19 +19,19 @@
   class="<?php print $classes; ?>" 
   data-nid="<?php print $node->nid; ?>" 
   style="<?php print "background:url($background)";  ?>">
-  <div class="container">
     <div class="content">
-      <?php
-        print("
-          <h1> 
-            $header 
-          </h1>
-          <p>
-            $body
-          </p>
-          <a href='$buttonUrl' class='button'> $buttonText </a>
-        ");
-       ?>
+      <div class="shadowed">
+        <?php
+          print("
+            <h1> 
+              $header 
+            </h1>
+            <p>
+              $body
+            </p>
+            <a href='$buttonUrl' class='button'> $buttonText </a>
+          ");
+         ?>
+      </div>
     </div> <!-- /content -->
-  </div>
 </article> <!-- /article #node -->

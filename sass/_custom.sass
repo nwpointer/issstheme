@@ -60,7 +60,13 @@
 		max-width: 1088px
 		margin: auto
 	.views-row
-		width: 24%
+		width: 100%
+		@media (min-width: 444px)
+			width: 49%
+		@media (min-width: 750px)
+			width: 33%
+		@media (min-width: 913px)
+			width: 24%
 		list-style: none
 		display: inline-block
 		margin: 0 0 0 0 !important
@@ -78,11 +84,17 @@
 		max-width: 1088px
 		margin: auto
 	li
-		width: 33%
+		width: 100%
+		@media (min-width: 444px)
+			width: 49%
+		@media (min-width: 913px)
+			width: 33%
+		
 		list-style: none
 		display: inline-block
 		border: 1px solid grey
-		margin: 0 0 0 0 !important
+		margin: 0 0 .25rem 0 !important
+		vertical-align: top
 	img
 		width: 100%
 		height: auto
@@ -94,6 +106,26 @@
 			font-size: 1.5rem
 	.views-field-body
 		padding: 1rem
-		p
-			height: 100px
+		// .field-content *
+		// 	display: none
+		.field-content p
+			display: inline-block !important
+			height: 96px !important
 			overflow: hidden
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
