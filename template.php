@@ -126,7 +126,17 @@ function basic_preprocess_page(&$vars, $hook) {
     $vars['theme_hook_suggestions'][] = 'page__' . $vars['node']->type;
     $vars['theme_hook_suggestions'][] = "page__node__" . $vars['node']->nid;
   }
+
+  if (isset($vars['node'])) :
+      if($vars['node']->type == 'page'):        
+          $node = node_load($vars['node']->nid);
+          $output = field_view_field('node', $node, 'field_image', array('label' => 'hidden','type' => 'Teaser'));        
+          $vars['my_image_field'] = $output;                
+      endif;
+  endif;
 }
+
+
 
 function basic_preprocess_node(&$vars) {
   // Add a striping class.

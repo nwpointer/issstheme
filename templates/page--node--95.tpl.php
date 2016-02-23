@@ -125,8 +125,12 @@ $(function(){
     <div class="container primary">
 
       
-
-      <section id="content">
+      <section id="content" class="sidebar">
+        <a href="#" class="button btn-lg">before you arrive</a>
+        <a href="#" class="button btn-lg">Iso Schedule</a>
+        <a href="#" class="button btn-lg">Volunteer</a>
+      </section>
+      <section id="content" class="content-body">
   
           <?php if ($breadcrumb || $title|| $messages || $tabs || $action_links): ?>
             <!-- <div id="content-header"> -->

@@ -18,6 +18,152 @@
 @import "regions/*"
 @import "forms/*"
 
+.sidebar
+	max-width: 30% 
+	display: inline-block
+
+.content-body
+	max-width: 60%
+	display: inline-block
+
+
+@media (max-width: 800px) 
+	.sidebar
+		max-width: 100% 
+		display: inline-block
+
+	.content-body
+		max-width: 100%
+		display: inline-block    
+
+
+
+
+
+.btn-lg
+	display: inline-block
+	width: 90%
+	text-align: center
+	color: $darkGreen !important
+	margin-bottom: 1.5rem
+
+.button
+	color: white
+	border: 1px solid white
+	display: inline-block
+	padding: 1rem
+	background: rgba(0,0,0,.1)
+	&:hover
+		background: $yellow
+		border: 1px solid $yellow
+		text-decoration: none
+
+.view-icsp-student-profiles
+	width: $max-width-px
+	margin: auto
+	overflow: auto
+
+#main .jcarousel-container 
+	// overflow: hidden
+
+.jcarousel-item
+	display: inline-block
+	width: 16rem
+	height: 18rem
+	padding: 2rem
+	box-sizing: border-box
+	img
+		width: 12rem
+		height: 12em
+		border-radius: 100%
+	a
+		display: inline-block
+		width: 100%
+		text-align: center
+
+
+a.jcarousel-prev, a.jcarousel-next
+	position: relative 
+	top: -9rem 
+	&:before
+		content: ""
+		width: 0
+		height: 0
+		display: inline-block
+		border-style: solid
+		border-width: 1rem 1.2rem 1rem 0
+		border-color: transparent #828282 transparent transparent
+
+a.jcarousel-next
+	float: right
+	&:before
+		border-width: 1rem 0 1rem 1.2rem
+		border-color: transparent transparent transparent #828282
+  
+
+a.jcarousel-next
+	right: 0px
+
+a[href="#accordion"]
+	// background: #e8e8e8
+	width: 100%
+	display: inline-block
+	padding: .5rem 
+	&:before
+		content: ""
+		width: 0 !important
+		height: 0 !important
+		line-height: 0 !important
+		display: inline-block
+		margin-right: 1rem
+		border-style: solid
+		border-width: .75rem 0 .75rem .75rem
+		border-color: transparent transparent transparent #339933
+		margin-right: 1rem
+		
+		
+		
+
+a[href="#accordion"].active:before
+	border-width: .75rem .75rem 0rem .75rem
+	border-color: #339933 transparent transparent transparent
+	margin-right: 0.25rem
+
+
+#img-header
+	overflow: hidden
+	position: relative
+	// max-height: 10rem
+
+	.title-container	
+		position: absolute
+		height: 100%
+		width: 100%
+		// border: 1px solid black
+		// overflow: auto
+		// top: -20.5px
+		// -webkit-transform: translate(50%,50%)
+		// transform: translate(50%,50%)
+		// left: 50%
+	.title	
+		height: 100%
+		-webkit-transform: translate(0%,50%)
+		transform: translate(0%,50%)
+		position: relative
+		top: -47px
+		color: white
+
+	#background
+		overflow: hidden
+		position: static
+		top: 0px
+		z-index: -1
+		width: 100%
+		img
+			width: 100%
+			height: auto !important
+
+
 .view-featured-faq 
 	margin-bottom: 2rem
 	margin-top: 3rem
@@ -101,9 +247,12 @@
 	.views-field-title
 		padding: 1rem
 		padding-bottom: 0rem
+		height: 4rem
+		overflow: hidden
 		a
 			COLOR: #184831
 			font-size: 1.5rem
+			text-align: center
 	.views-field-body
 		padding: 1rem
 		// .field-content *
