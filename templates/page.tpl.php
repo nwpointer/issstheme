@@ -106,7 +106,7 @@ $(function(){
     </div>
     <div id="background">
       <?php
-        if ($my_image_field):
+        if (isset($my_image_field)):
            print render($my_image_field);
         endif;
       ?>
@@ -139,7 +139,7 @@ $(function(){
 
               <?php print render($title_prefix); ?>
 
-              <?php if ($title && !$my_image_field): ?>
+              <?php if ($title && !isset($my_image_field)): ?>
                 <h1 class="title"><?php print $title; ?></h1>
               <?php endif; ?>
 
