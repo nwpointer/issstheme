@@ -50,9 +50,9 @@ $(function(){
 <div id="page" class="<?php print $classes; ?>"<?php print $attributes; ?>>
 
   <!-- ______________________ HEADER _______________________ -->
-  <div id="uo-header">
+<!--   <div id="uo-header">
     
-  </div>
+  </div> -->
   <header id="header">
     <?php if ($site_name): ?>
       <?php if ($title): ?>
