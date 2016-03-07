@@ -26,8 +26,8 @@
 </article> -->
 
 <div id="container2">
-    <div id="container1" style="<?php print "background:url($background)";  ?>"  >
-      <div id="col1" >
+    <div id="container1"  >
+      <div id="col1" style="<?php print "background:url($background)";  ?>" >
         this layout requires text here or the div will collapse
       </div>
       <div id="col2">
