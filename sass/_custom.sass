@@ -34,11 +34,7 @@
 
 	.content-body
 		max-width: 100%
-		display: inline-block    
-
-
-
-
+		display: inline-block   
 
 .btn-lg
 	display: inline-block
@@ -57,6 +53,56 @@
 		background: $yellow
 		border: 1px solid $yellow
 		text-decoration: none
+
+.container.primary
+	h1
+		color: $darkGreen !important
+		text-align: center
+		margin: 0
+		font-family: BauerBodoni
+		font-weight: bold
+	p
+		text-align: center
+
+#header #site-name a
+	font-family: United Serif !important
+	font-weight: bold
+
+.node-component-buttons
+	padding-bottom: 20px
+
+.yellowbutton
+	color: $green !important
+	font-family: United Serif
+	font-weight: bold
+	border: 1px solid black
+	display: inline-block
+	padding: 1rem
+	background: $yellow
+	width: 300px
+	text-align: center
+	display: inline-block
+	margin-top: 10px
+	margin-bottom: 40px
+	margin-right: 20px
+	margin-left: 20px
+	&:hover
+		background: $green
+		border: 1px solid white
+		text-decoration: none
+		color: white !important
+
+.buttonrow
+	margin: 0 
+	align-items: center
+	text-align: center
+
+.shadowed h1
+	text-align: center
+	margin: 1em 0
+	padding: 0
+
+
 
 .view-icsp-student-profiles
 	width: $max-width-px
@@ -225,21 +271,23 @@ a[href="#accordion"].active:before
 		display: block
 
 .view-featured-articles
-	padding: 3rem
+	background: url(http://isss_image.dd:8083/sites/default/files/bg-green-1.jpg) no-repeat center center fixed
+	background-size: cover
+	padding: 2rem
 	ul
 		max-width: 1088px
 		margin: auto
+		text-align: center
 	li
 		width: 100%
 		@media (min-width: 444px)
 			width: 49%
 		@media (min-width: 913px)
-			width: 33%
+			width: 30%
 		
 		list-style: none
 		display: inline-block
-		border: 1px solid grey
-		margin: 0 0 .25rem 0 !important
+		margin: 0 1rem !important
 		vertical-align: top
 	img
 		width: 100%
@@ -250,9 +298,10 @@ a[href="#accordion"].active:before
 		height: 4rem
 		overflow: hidden
 		a
-			COLOR: #184831
+			COLOR: #FED102
+			font-family: United Serif
 			font-size: 1.5rem
-			text-align: center
+			text-align: left !important
 	.views-field-body
 		padding: 1rem
 		// .field-content *
@@ -263,7 +312,9 @@ a[href="#accordion"].active:before
 			overflow: hidden
 
 
-
+.white-back-buttons
+	h1
+		color: #53555A
 
 
 

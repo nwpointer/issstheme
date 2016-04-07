@@ -74,23 +74,6 @@ $(function(){
         <?php print render($page['navbar']); ?>
       </div>
     <?php endif; ?>
-    <div class="container">
-      <?php if ($logo): ?>
-        <a href="<?php print $front_page; ?>" title="<?php print $site_name; ?>" rel="home" id="logo">
-          <img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>"/>
-        </a>
-      <?php endif; ?>
-
-      <?php if ($site_slogan): ?>
-        <div id="site-slogan"><?php print $site_slogan; ?></div>
-      <?php endif; ?>
-
-      <?php if ($page['header']): ?>
-        <div id="header-region">
-          <?php print render($page['header']); ?>
-        </div>
-      <?php endif; ?>
-    </div>
   </header> <!-- /header -->
   <div id="img-header">
     <div class="container">
@@ -121,7 +104,6 @@ $(function(){
         <?php print render($page['highlighted']) ?>
       </section>
     <?php endif; ?>
-
     <div class="container primary">
 
       
@@ -131,7 +113,6 @@ $(function(){
           <?php if ($breadcrumb || $title|| $messages || $tabs || $action_links): ?>
             <!-- <div id="content-header"> -->
 
-              <?php print $breadcrumb; ?>
 
               <?php if ($secondary_menu): ?>
                 <?php print theme('links', array('links' => $secondary_menu, 'attributes' => array('id' => 'secondary', 'class' => array('sub-menu')))); ?>
@@ -139,9 +120,7 @@ $(function(){
 
               <?php print render($title_prefix); ?>
 
-              <?php if ($title && !isset($my_image_field)): ?>
-                <h1 class="title"><?php print $title; ?></h1>
-              <?php endif; ?>
+            
 
               <?php print render($title_suffix); ?>
               <?php print $messages; ?>
@@ -188,6 +167,7 @@ $(function(){
         </section>
       <?php endif; ?> <!-- /second-content -->
     </div>
+
 
     <?php if ($page['prefooter']): ?>
       <section id="prefooter">

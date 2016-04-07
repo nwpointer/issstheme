@@ -12,6 +12,71 @@
 #uobannerandfooter-uoheader{
 	height:112px;
 }
-.oheader-container, .uoheader-links-container{
-	padding-top: 1.75rem;
+
+#navbar-region{
+	position: absolute;
+    width: 100%;
+    top: 132px;
+    z-index: 6;
+    background-color: rgba(240,240,240,0.9);
+}
+
+html body.admin-menu {
+    margin-top: 0px !important;
+}
+body.admin-menu {
+    margin-top: 0px !important;
+}
+
+@font-face {
+    font-family: United Serif;
+    src: url(../fonts/UnitedSerifReg-Light.otf);
+}
+
+@font-face {
+    font-family: United Serif;
+    font-weight: bold;
+    src: url(../fonts/UnitedSerifReg-Bold.otf);
+}
+
+@font-face {
+    font-family: United Serif;
+    font-weight: bold;
+    font-style: italic;
+    src: url(../fonts/UnitedSerifReg-Medium.otf);
+}
+
+@font-face {
+    font-family: BauerBodoni;
+    src: url(../fonts/BauerBodni.ttf);
+}
+
+@font-face {
+    font-family: BauerBodoni;
+    font-weight: bold;
+    src: url(../fonts/BauerBodni-Bold.ttf);
+}
+
+@font-face {
+    font-family: KievitPro;
+    src: url(../fonts/KievitPro-Regular.otf);
+}
+
+@font-face {
+    font-family: KievitPro;
+    font-weight: bold;
+    font-style: italic;
+    src: url(../fonts/KievitPro-BoldItalic.otf);
+}
+
+@font-face {
+    font-family: KievitPro;
+    font-style: italic;
+    src: url(../fonts/KievitPro-Italic.otf);
+}
+
+@font-face {
+    font-family: KievitPro;
+    font-weight: bold;
+    src: url(../fonts/KievitPro-Bold.otf);
 }
