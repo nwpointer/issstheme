@@ -1,3 +1,17 @@
+<script>
+console.log('component-buttons')
+var $ = jQuery;
+$(function(){
+  $(".yellowbutton").each(function(){
+     if($(this).attr('href') == ''){
+      $(this).hide();
+     }
+  });
+
+
+})
+
+</script>
 <?php 
   $node = node_load($nid);
   // required fields
