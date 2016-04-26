@@ -9,7 +9,7 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "United Serif";
+  font-family: "Quadon";
   font-weight: bold;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -40,7 +40,7 @@ body {
   margin: 0;
   font-size: 16px;
   line-height: 1.5em;
-  font-family: "United Serif";
+  font-family: "Quadon";
   letter-spacing: 0.03em;
 }
 
@@ -229,7 +229,7 @@ div.status {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "United Serif";
+  font-family: "Quadon";
   font-weight: bold;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -270,7 +270,7 @@ body {
   color: white;
   text-align: center;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  font-family: "United Serif";
+  font-family: "Quadon";
 }
 .node-component-hero .button {
   color: white;
@@ -399,7 +399,7 @@ article {
 }
 @media (min-width: 750px) {
   #footer .block {
-    width: 33%;
+    width: 25%;
   }
 }
 #footer .block li {
@@ -417,7 +417,7 @@ article {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "United Serif";
+  font-family: "Quadon";
   font-weight: bold;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -495,7 +495,7 @@ body {
 }
 #navbar-region .sf-depth-1 {
   padding-right: 1rem;
-  font-family: "United Serif";
+  font-family: "Quadon";
 }
 #navbar-region .sf-depth-1 ul {
   left: -0.5rem;
@@ -627,7 +627,7 @@ input[type="text"], input[type="password"] {
 }
 
 #header #site-name a {
-  font-family: United Serif !important;
+  font-family: Quadon !important;
   font-weight: bold;
 }
 
@@ -637,7 +637,7 @@ input[type="text"], input[type="password"] {
 
 .yellowbutton {
   color: #007940 !important;
-  font-family: United Serif;
+  font-family: Quadon;
   font-weight: bold;
   border: 1px solid black;
   display: inline-block;
@@ -690,6 +690,11 @@ input[type="text"], input[type="password"] {
   width: 1200px;
   margin: auto;
   overflow: auto;
+}
+
+#main .jcarousel-container {
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 .jcarousel-item {
@@ -911,7 +916,7 @@ a[href="#accordion"].active:before {
 }
 .view-featured-articles .views-field-title a {
   COLOR: #FED102;
-  font-family: United Serif;
+  font-family: Quadon;
   font-size: 1.5rem;
   text-align: left !important;
 }
@@ -1006,8 +1011,8 @@ a[href="#accordion"].active:before {
 
 .ui-widget-content {
   border: none;
-  background: #2E2E2E;
-  color: #ffffff;
+  background: #ffffff;
+  color: #2E2E2E;
 }
 
 .ui-corner-all, .ui-corner-top, .ui-corner-bottom {
@@ -1022,7 +1027,7 @@ a[href="#accordion"].active:before {
 
 .views-accordion-header .field-content {
   font-size: 30px;
-  font-family: United Serif;
+  font-family: Quadon;
   font-weight: bold;
   position: absolute;
   left: 32px;
@@ -1044,6 +1049,49 @@ a[href="#accordion"].active:before {
   padding: 0;
 }
 
+footer {
+  font-family: KievitPro;
+}
+footer p {
+  margin-bottom: 0.5em;
+}
+footer a {
+  color: white !important;
+}
+footer #quicklinks {
+  margin-top: 10px;
+  list-style-type: none;
+}
+footer #quicklinks li a {
+  color: yellow !important;
+}
+footer #socialmedia li {
+  display: inline;
+}
+
+.international-student-resources {
+  height: 500px;
+  background-color: #FFE881;
+  color: #2D2D2D;
+  text-align: center;
+  font-familty: Quadon;
+}
+.international-student-resources p {
+  margin-bottom: 0;
+  margin: 0 auto;
+  margin-top: 1em;
+  max-width: 1200px;
+}
+.international-student-resources h1 {
+  padding-top: 130px;
+  font-family: BauerBodoni;
+  color: #2D2D2D;
+}
+.international-student-resources .yellowbutton {
+  background: #FFE881;
+  color: black !important;
+}
+
 .container {
   max-width: 1200px;
 }
@@ -1055,7 +1103,7 @@ a[href="#accordion"].active:before {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "United Serif";
+  font-family: "Quadon";
   font-weight: bold;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1103,19 +1151,19 @@ body.admin-menu {
 }
 
 @font-face {
-  font-family: United Serif;
-  src: url(../fonts/UnitedSerifReg-Light.otf);
+  font-family: Quadon;
+  src: url(../fonts/Quadon.otf);
 }
 @font-face {
-  font-family: United Serif;
+  font-family: Quadon;
   font-weight: bold;
-  src: url(../fonts/UnitedSerifReg-Bold.otf);
+  src: url(../fonts/Quadon-Bold.otf);
 }
 @font-face {
-  font-family: United Serif;
+  font-family: Quadon;
   font-weight: bold;
   font-style: italic;
-  src: url(../fonts/UnitedSerifReg-Medium.otf);
+  src: url(../fonts/Quadon-BoldItalic.otf);
 }
 @font-face {
   font-family: BauerBodoni;
